@@ -29,11 +29,7 @@ cd WebAuth
 1. Go to [Google Cloud Console](https://console.cloud.google.com/).
 2. Create a project and enable the **Google OAuth API**.
 3. Configure the **OAuth consent screen** and create OAuth credentials.
-4. Add the following redirect URI:
-   ```
-   http://localhost:8080/login/oauth2/code/google
-   ```
-5. Copy the `Client ID` and `Client Secret` values.
+4. Copy the `Client ID` and `Client Secret` values.
 
 ### **3. Update `application.properties`**
 Replace placeholders with your Google OAuth2 credentials:
